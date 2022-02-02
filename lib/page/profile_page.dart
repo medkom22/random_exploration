@@ -87,7 +87,75 @@ class ProfilePage extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(16),
                       )),
-                      onPressed: () {},
+                      onPressed: () {
+                        showModalBottomSheet(
+                          isScrollControlled: true,
+                          shape: const RoundedRectangleBorder(
+                            borderRadius: BorderRadius.vertical(
+                              top: Radius.circular(16),
+                            ),
+                          ),
+                          context: context,
+                          builder: (context) => FractionallySizedBox(
+                            heightFactor: 0.4,
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(vertical: 10),
+                              child: Column(
+                                children: [
+                                  const SizedBox(
+                                    height: 50,
+                                  ),
+                                  Text(
+                                    'Update Photo',
+                                    style: TextStyle(
+                                      fontSize: 22,
+                                      fontWeight: medium,
+                                      color: black,
+                                    ),
+                                  ),
+                                  const SizedBox(
+                                    height: 12,
+                                  ),
+                                  Text(
+                                    '''You are only able to change\nthe picture profile once''',
+                                    style: TextStyle(
+                                        fontSize: 18, fontWeight: reguler),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                  const SizedBox(
+                                    height: 30,
+                                  ),
+                                  Container(
+                                    width: 220,
+                                    height: 55,
+                                    decoration: BoxDecoration(
+                                      color: orange,
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                    child: OutlinedButton(
+                                      onPressed: () {},
+                                      child: Text(
+                                        'Continue',
+                                        style: TextStyle(
+                                          color: white,
+                                          fontSize: 16,
+                                          fontWeight: medium,
+                                        ),
+                                      ),
+                                    ),
+                                  )
+                                ],
+                              ),
+                              decoration: const BoxDecoration(
+                                color: white,
+                                borderRadius: BorderRadius.vertical(
+                                  top: Radius.circular(16),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
                       child: Text(
                         'Update Profile',
                         style: TextStyle(
