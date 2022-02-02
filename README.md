@@ -1,16 +1,6 @@
-# bwa_dormitory
+# RANDOM EXPLORATION
 
-A new Flutter project.
+### Melakukan cloning dari UI di https://pixel.buildwithangga.com/search?q=random
+☕ 🇮🇩
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Cuplikan layar 2022-02-02 171140](https://user-images.githubusercontent.com/76081296/152134285-ddae1613-9b24-44e6-86c3-36c063601a2c.png)
